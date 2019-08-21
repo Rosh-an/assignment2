@@ -4,7 +4,7 @@
 	<head>
 		
 		<!-- Website Title & Description for Search Engine purposes -->
-		<title></title>
+		<title>Food</title>
 		<meta name="description" content="">
 		
 		<!-- Mobile viewport optimized -->
@@ -13,19 +13,27 @@
 		<!-- Bootstrap CSS -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		
 		
 		<!-- Custom CSS -->
 		<link href="includes/css/styles.css" rel="stylesheet">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+		<!--font-->
+		<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 		
 	</head>
 	<body>
 	
 	<div class="container" id="main">
 
-		<div class="navbar navbar-fixed-top">
+		<nav class="navbar navbar-fixed-top">
 			<div class="container">
 
 				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
@@ -37,7 +45,7 @@
 				<a class="navbar-brand" href="/"><img src="images/logo1.png" alt="Your Logo" id="pic"></a>
 
 				<div class="nav-collapse collapse navbar-responsive-collapse">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav act">
 						<li class="active act">
 							<a href="#">Home</a>
 						</li>
@@ -81,7 +89,7 @@
 						
 					</ul><!--end nav-->
 
-					<form class="navbar-form pull-left">
+					<form class="navbar-form pull-right">
 						<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
 
 						<button type="submit" class="btn btn-default">
@@ -119,7 +127,7 @@
 				</div><!--end navcollapse--> 
 
 			</div><!--end container-->
-		</div><!--end nabvar-->
+		</nav><!--end nabvar-->
 
 
 		<div class="carousel slide" id="myCarousel">
@@ -136,23 +144,23 @@
 				<div class="item active" id="slide1">
 					
 					<div class="carousel-caption">
-						<h4>Online reviews</h4>
-						<p>Learn how to build your first responsive Website with the brand new twitter bootstrap 3</p>
+						<h4 id="rev">Online reviews</h4>
+						<p id="para1">Not sure where to go for your next dinner? . . . Browse through all the restaurant ratings and reviews</p>
 					</div><!--end carousel caption-->
 				</div><!--end item-->
 
 				<div class="item" id="slide2">
 						
 					<div class="carousel-caption">
-						<h4>Table bookings</h4>
-						<p>PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousand aspiring web designers launch thei web designing career</p>
+						<h4 id="table">Table bookings</h4>
+						<p id="para2">Birthday treat? Team Dinner? Anniversary date? . . . Don't forget to book your table to avoid hassles</p>
 					</div><!--end carousel caption-->
 				</div><!--end item-->
 
 				<div class="item" id="slide3">
 					<div class="carousel-caption">
-						<h4>Online Delivery</h4>
-						<p>Learn how to buy a perfect domain name and hosting package and get your website live on the web with ease</p>
+						<h4  id="del">Online Delivery</h4>
+						<p id="para3">All restaurants in the town now at your fingertips. All you need is a CLICK</p>
 					</div><!--end carousel caption-->
 				</div><!--end item-->
 			</div><!--carousel inner-->
@@ -198,20 +206,147 @@
 		</div><!--end bigCallout-->
 
 		
-		<div class="row" id="featuresheading">
+		<div class="row">
+			<div class="col-12 featuresheading">
+				<h2>More Features</h2>
+				<p class="lead">8-bit meditation aesthetic, meggings man braid +1 sustainable activated charcoal selvage cardigan selfies YOLO</p>
+			</div><!--end col-12-->
 
 		</div><!--end featuresheading-->
 
 
 		<div class="row" id="features">
+			<div class="col-sm-4" feature>
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Recipes from top chefs</h3>
+					</div><!--end panel heading-->
+					<img src="images/recipe.png" alt="HTML5" class="img-circle" height="150" width="170">
 
+					<p>8-bit meditation aesthetic, meggings man braid +1 sustainable activated charcoal selvage cardigan selfies YOLO</p>
+
+					<a href="#" target="_blank" class="btn btn-warning btn-block">Recipes</a>
+				</div><!--end panel-->
+			</div><!--end feature-->
+
+			<div class="col-sm-4">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Prepare your diet chart</h3>
+						</div><!--end panel heading-->
+						<img src="images/diet.jpg" alt="HTML5" class="img-circle" height="150" width="150">
+	
+						<p>8-bit meditation aesthetic, meggings man braid +1 sustainable activated charcoal selvage cardigan selfies YOLO</p>
+	
+						<a href="#" target="_blank" class="btn btn-danger btn-block">Diet</a>
+					</div><!--end panel-->
+				</div><!--end feature-->
+
+				<div class="col-sm-4 feature">
+						<div class="panel">
+							<div class="panel-heading">
+								<h3 class="panel-title">Calories intake</h3>
+							</div><!--end panel heading-->
+							<img src="images/calorie.jpg" alt="HTML5" class="img-circle" height="150" width="150">
+		
+							<p>8-bit meditation aesthetic, meggings man braid +1 sustainable activated charcoal selvage cardigan selfies YOLO</p>
+		
+							<a href="#" target="_blank" class="btn btn-info btn-block">Calories</a>
+						</div><!--end panel-->
+					</div><!--end feature-->
 		</div><!--end features-->
 
 
 		<div class="row" id="moreInfo">
+			<div class="col-sm-4">
+				<h3>Reach us</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Office</a></li>
+						<li><a href="#tab2" data-toggle="tab">Ask</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our location <small>Head office</small></h4>
+
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2007.3936041057264!2d77.61390264579907!3d12.934525366523356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c632a2e17aea311!2sNIIT+-+Koramangala+-+StackRoute!5e0!3m2!1sen!2sin!4v1566371014374!5m2!1sen!2sin" width="200" height="200" frameborder="0" style="border:0" allowfullscreen margin="auto"></iframe>
+
+							<br><p>Address: 117, Above SBI, Opposite Raheja Arcade,, 7th Block, Koramangala, Bengaluru, Karnataka 560095<br>
+									Hours: 9 AM - 7 PM<br>
+									<a href="#">Phone: 080-4127-5059</a></p>
+							
+									<h6>About Us</h6>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat necessitatibus tenetur architecto blanditiis sapiente vero maiores omnis quaerat corrupti. Iusto pariatur laudantium asperiores veritatis voluptates? Quis accusamus autem laborum.</p>
+
+
+						</div><!--end tab pane-->
+
+						<div class="tab-pane" id="tab2">
+								<div class="container form">
+										<form action="action_page.php">
+											<br><p id="query">Ask your query</p>
+										  <label for="name">Full Name</label>
+										  <input type="text" id="name" name="fullname" placeholder="Your name..">
+																  
+										  <label for="city">City</label>
+										  <select id="city" name="City">
+											<option value="blr">Bangalore</option>
+											<option value="hyd">Hyderabad</option>
+											<option value="nd">New Delhi</option>
+										  </select>
+									  
+										  <label for="subject">Query</label>
+										  <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+									  
+										  <input type="submit" value="Submit">
+									  
+										</form>
+									  </div>
+
+							<hr>
+
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Click for a modal window</a>
+						</div><!--end tab pane 2-->
+					</div><!--end tab content-->
+				</div><!--end tabbable-->
+			</div><!--end col-6-->
+
+			<div class="col-sm-8">
+				<h3>Some text info</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur reprehenderit animi iure odit voluptates tempora minus cupiditate sequi delectus, molestias ipsa enim veritatis exercitationem beatae obcaecati voluptatum nemo eos?</p>
+
+				<h4>A List Group</h4>
+
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Kale</h4>
+						<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolore sapiente magni tenetur alias odio quam, aliquam quae facilis iusto adipisci blanditiis laboriosam incidunt excepturi sunt accusantium facere! Saepe, accusantium.</p>
+
+
+					</a>
+					<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Kale</h4>
+							<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolore sapiente magni tenetur alias odio quam, aliquam quae facilis iusto adipisci blanditiis laboriosam incidunt excepturi sunt accusantium facere! Saepe, accusantium.</p>
+							
+	
+						</a>
+						<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Kale</h4>
+								<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolore sapiente magni tenetur alias odio quam, aliquam quae facilis iusto adipisci blanditiis laboriosam incidunt excepturi sunt accusantium facere! Saepe, accusantium.</p>
+								
+		
+							</a>
+
+				</div><!--end list group-->
+
+				<h5>A small heading</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora hic possimus earum eos, velit atque obcaecati, officia iure aliquam nihil cum porro. Molestias, necessitatibus sit corrupti porro delectus deserunt ad?</p>
+
+			</div><!--end col-sm 6-->
 
 		</div><!--end moreInfo-->
-
+		 
+		<hr>
 
 		<div class="row" id="moreCourses">
 
@@ -221,6 +356,41 @@
 	</div><!--end container-->
 
 	<footer>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2019 {name}</h6>
+				</div>
+				<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat necessitatibus tenetur architecto blanditiis sapiente vero maiores omnis quaerat corrupti. Iusto pariatur laudantium asperiores veritatis voluptates? Quis accusamus autem laborum.</p>
+					
+				</div>
+
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>			
+				</div>
+				<div class="col-sm-2 follow">
+					<h6>Follow Us</h6>
+					<ul class="unstyled">
+						<li><a href="#"><img src="images/twitter.jpg" height="25" width="25" class="img-circle"></a></li>
+						<li><a href="#"><img src="images/facebook.png" height="25" width="25" class="img-circle"></a></li>
+						<li><a href="#"><img src="images/google.png" height="25" width="25" class="img-circle"></a></li>
+					</ul>			
+				</div>
+
+				<div class="col-sm-2">
+					<h6>Coded <span class="glyphicon glyphicon-heart"></span> By Rosh</h6>
+				</div>
+			</div>
+		</div><!--end container-->
 
 	</footer>
 	
